@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        img {
+            display: block;
+            margin-left: 35%;
+            margin-right: auto;
+            width: 500px;
+            height: 300px;
+        }
+        .class {
+            color: white;
+            font-size: 60px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .donkey {
+            color: white;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        input {
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 6px;
+            width: 400px;
+            height: 40px;
+            font-size: 30px;
+        }
+        ::placeholder {
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+        .buffalo {
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            font-weight: bolder;
+            padding: 20px;
+            padding-bottom: 14px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        form {
+            display: block;
+            margin-left: 33%;
+            margin-right: auto;
+        }
+        select {
+            border: 2px solid white;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+            padding: 20px;
+            padding-bottom: 14px;
+            font-size: 20px;
+            float: right;
+        }
+        .kukka {
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            font-weight: bolder;
+            padding: 20px;
+            padding-bottom: 14px;
+            font-size: 20px;
+            float: right;
+            margin-left: 10px;
+        }
+            </style>
+</head>
+<body>
+    <div>
+        <button class="kukka">Sign in ></button>
+        <select>
+            <option>English</option>
+            <option>Telugu</option>
+            <option>Hindi</option>
+        </select>
+        <img src="https://media.zenfs.com/en/hypebeast_936/55dd2178cbbd27b2cdba3f8985a08d48" width="200px" height="100px">
+
+    </div>
+
+    <p class="class">Unlimited movies, TV shows and more</p>
+    <p class="donkey">Watch anywhere, Cancel anytime.</p>
+    <p class="donkey">Ready to watch? Enter your email or mobile number to create or restart your membership.</p>
+    <form>
+        <input type="text" placeholder="Email or Mobile number" id="current">
+        <label for="current"><button class="buffalo" onclick="alert('welcome to NETFLIX')">Get Started ></button></label>
+    </form>
+
+</body>
+</html>
